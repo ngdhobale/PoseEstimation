@@ -1,7 +1,4 @@
-#import library
-import vlc
-# importing pafy module
-import pafy
+
 import speech_recognition as sr
 
 # Initialize recognizer class (for recognizing the speech)
