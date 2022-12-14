@@ -1,4 +1,8 @@
-{% extends 'base.html' %}
+
+HtmlFile = open("base.html", 'r', encoding='utf-8')
+source_code = HtmlFile.read() 
+print(source_code)
+components.html(source_code)
 {% load static %}
 {% block content %}
 <video width="500" height="380" class="center" autoplay loop>
