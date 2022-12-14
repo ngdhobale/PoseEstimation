@@ -1,1 +1,1 @@
-speech_recognition
+!pip install speech_recognition as sr
